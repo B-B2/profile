@@ -1,0 +1,108 @@
+body {
+  background-color:rgb(255, 240, 218);
+  font-family:Arial, Helvetica, sans-serif;
+  color:black;
+  font-size:large;
+  line-height:200%;
+  margin: 0px;
+}
+
+h1 {
+  font-size: 25px;
+  line-height:200%;
+  font-family:  'Ubuntu', sans-serif, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+  font-size: 30px;
+  line-height:200%;
+  font-family:  'Ubuntu', sans-serif, Geneva, Tahoma, sans-serif;
+
+}
+
+a:hover {
+  background-color: rgb(108, 130, 202);
+}
+
+a:visited {
+  color: rgb(12, 12, 12);
+}
+
+.card-white {
+  background: rgb(255, 253, 234);
+  padding: 10px;
+  border: 1px solid lightgrey;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 40%);
+  margin: 20px 200px;
+  text-align: center;
+  border-radius:10px;
+
+}
+.img-circle {
+  border-radius: 50%;
+  width: 100px;
+  border: 1px solid rgb(243, 240, 240);
+
+
+}
+.text-center {
+  text-align: center;
+}
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+#links {
+  text-align: center;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card-white  {
+    background: rgb(255, 253, 234);
+    margin: 20px 80px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card-white  {
+    background: rgb(255, 253, 234);
+    margin: 20px;
+
+
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card-white  {
+    background: rgb(255, 253, 234);
+
+
+  }
+}
